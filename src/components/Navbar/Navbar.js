@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 function Navbar() {
   
@@ -6,9 +5,9 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <div className="navbar-brand">
             Scandiweb-Test
-          </a>
+          </div>
           <button
             className="navbar-toggler"
             type="button"

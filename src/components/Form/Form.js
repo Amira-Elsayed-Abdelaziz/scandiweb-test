@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 function Form() {
@@ -101,7 +101,7 @@ function Form() {
     for (let i = 0; i < inputs.length; i++) {
       console.log("loop");
       console.log(inputs[i]);
-      if (inputs[i].value == "") {
+      if (inputs[i].value ==="") {
         inputs[i].classList.add("is-invalid");
         flag = false;
       } else {

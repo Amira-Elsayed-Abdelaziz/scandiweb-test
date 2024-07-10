@@ -2,12 +2,7 @@
 import { useEffect, useState } from "react";
 import Product from "../Product/Product";
 import { Link } from "react-router-dom";
-import {
-    createBrowserRouter,
-    createRoutesFromElements,
-    Route,
-    RouterProvider,
-  } from "react-router-dom";
+
 function AllProducts() {
   const [products, setProducts] = useState([]);
   let getProduct = () => {
@@ -21,7 +16,7 @@ function AllProducts() {
 
   useEffect(() => getProduct, []);
   let deleteSelected = () => {
-    let deleteId = Array();
+    let deleteId = [];
     // console.log()
     document
       .querySelectorAll("input[type=checkbox]:checked")
