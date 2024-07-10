@@ -189,15 +189,9 @@ function Form() {
               {" "}
               -- select an option --{" "}
             </option>
-            <option id="DVD" value="Size">
-              DVD
-            </option>
-            <option id="Furniture" value="Dimensions">
-              Furniture
-            </option>
-            <option id="Book" value="Weight">
-              Book
-            </option>
+            <option id="DVD" value="Size">DVD</option>
+            <option id="Furniture" value="Dimensions">Furniture</option>
+            <option id="Book" value="Weight">Book</option>
           </select>
           <label htmlFor="productType">Product Type</label>
         </div>
