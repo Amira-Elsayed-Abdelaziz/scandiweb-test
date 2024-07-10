@@ -9,7 +9,7 @@ function Routers() {
         <Routes>
           <Route path="/" element={<App />}>
             <Route path="" element={<AllProducts />} />
-            <Route path="add-product" element={<Form />} />
+            <Route path="addproduct" element={<Form />} />
           </Route>
         </Routes>
       </BrowserRouter>

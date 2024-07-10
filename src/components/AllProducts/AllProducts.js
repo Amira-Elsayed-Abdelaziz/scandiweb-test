@@ -40,7 +40,7 @@ function AllProducts() {
   };
   return (
     <>
-      <Link to="add-product" className="mx-4 btn btn-outline-primary ">
+      <Link to="addproduct" className="mx-4 btn btn-outline-primary ">
         ADD
       </Link>
       <button
