@@ -60,14 +60,14 @@ function Form() {
               <input
                 type="number"
                 className="form-control"
-                id="lenght"
+                id="length"
                 name="Length"
                 placeholder="Length"
                 onChange={(e) => {
                   setLength(e.target.value);
                 }}
               />
-              <label htmlFor="lenght">Length (CM)</label>
+              <label htmlFor="length">Length (CM)</label>
             </div>
           </div>
           <div>Please, provide Dimensions of the Furniture</div>
