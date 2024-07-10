@@ -17,7 +17,7 @@ function AllProducts() {
       });
   };
 
-  useEffect(() => getProduct, []);
+  useEffect(getProduct, []);
   let deleteSelected = () => {
     let deleteId = [];
     // console.log()
