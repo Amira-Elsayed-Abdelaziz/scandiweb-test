@@ -152,8 +152,7 @@ function Form() {
             id="sku"
             name="sku"
             placeholder="SKU"
-            minLength={8}
-            maxLength={8}
+
           />
           <label htmlFor="sku">SKU</label>
         </div>
