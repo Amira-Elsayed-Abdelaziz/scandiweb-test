@@ -6,7 +6,10 @@ import { Link } from "react-router-dom";
 function AllProducts() {
   const [products, setProducts] = useState([]);
   let getProduct = () => {
-    fetch("https://bushub.000webhostapp.com/")
+    fetch("https://bushub.000webhostapp.com/",{
+    "Content-Type": "application/json",
+        method: "GET",
+      })
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
