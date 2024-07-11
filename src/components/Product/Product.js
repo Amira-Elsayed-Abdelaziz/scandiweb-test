@@ -3,20 +3,20 @@ function Product(props) {
 const product=props.product;
   return (
     <>
-      <div className="card mx-4 my-4">
+      <div className=" bg-primary bg-gradient card border-primary border border-2 mx-4 my-4">
         <div className="card-header">
           <input
             name="deleteProducts"
-            className="delete-checkbox"
+            className="delete-checkbox form-check-input"
             type="checkbox"
             value={product.id}
           />
         </div>
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item text-center">{product.sku}</li>
-          <li className="list-group-item text-center">{product.name}</li>
-          <li className="list-group-item text-center">{product.price} $</li>
-          <li className="list-group-item text-center">{product.type} : {props.product.type_value} </li>
+        <ul className="list-group list-group-flush bg-dark ">
+          <li className="list-group-item text-center bg-transparent text-light">{product.sku}</li>
+          <li className="list-group-item text-center bg-transparent text-light">{product.name}</li>
+          <li className="list-group-item text-center bg-transparent text-light">{product.price} $</li>
+          <li className="list-group-item text-center bg-transparent text-light">{product.type} : {props.product.type_value} </li>
         </ul>
       </div>
     </>
